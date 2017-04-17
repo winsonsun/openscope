@@ -3,6 +3,7 @@
 ### New Features
 - New Airport: KABQ (Albuquerque International Sunport, NM) [#327](https://github.com/openscope/openscope/issues/327)
 - Add Hartsfield–Jackson Atlanta Intl. (KATL) [#541](https://github.com/openscope/openscope/issues/541)
+- New Airport: KELP (El Paso International Airport, TX) [#331](https://github.com/openscope/openscope/issues/331)
 
 
 
