@@ -1,6 +1,7 @@
 ## 5.4.0 (September 1, 2017)
 ---
 ### New Features
+- New Airport: KSTL (St. Louis Lambert International Airport, MO) [#349](https://github.com/openscope/openscope/issues/349)
 
 
 
