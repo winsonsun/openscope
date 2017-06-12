@@ -313,7 +313,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         // },
         {
             icao: 'saez',
-            level: 'medium',
+            level: 'easy',
             name: 'Aeropuerto Internacional Ministro Pistarini',
             wip: true
         },
