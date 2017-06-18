@@ -119,12 +119,12 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             name: 'Dublin Airport',
             wip: true
         },
-        // {
-        //     icao: 'einn',
-        //     level: 'easy',
-        //     name: 'Shannon Airport',
-        //     wip: true
-        // },
+        {
+            icao: 'einn',
+            level: 'beginner',
+            name: 'Shannon Airport',
+            wip: true
+        },
         {
             icao: 'ekch',
             level: 'medium',
