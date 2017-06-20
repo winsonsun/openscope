@@ -27,7 +27,7 @@
 - Updates development-workflow-procedures, adds Quick Start guide to README and consolidates all documentation in the `documentation` directory [#418](https://github.com/openscope/openscope/issues/418)
 - Adds tests and verifies functionality of non-procedural departures and arrivals (support for direct route strings) [#434](https://github.com/openscope/openscope/issues/434)
 - Adds unique transponder and CID generation methods [#483](https://github.com/openscope/openscope/issues/483)
-
+- Updates Ezeiza (SAEZ) - Updated all procedures, added video map, updated traffic, added new airlines [#516](https://github.com/openscope/openscope/issues/516)
 
 
 
