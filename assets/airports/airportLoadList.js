@@ -168,6 +168,12 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             wip: true
         },
         {
+            icao: 'kdtw',
+            level: 'hard',
+            name: 'Detroit Metropolitan Wayne County Airport',
+            wip: false
+        },
+        {
             icao: 'kiad',
             level: 'hard',
             name: 'Washington-Dulles International Airport',
