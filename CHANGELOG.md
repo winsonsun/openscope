@@ -1,8 +1,7 @@
 ## 5.3.0 (August 1, 2017)
 ---
 ### Features
-
-
+- Adds Tucson Intl. (KTUS) - Includes video map, terrain and realistic traffic [#555](https://github.com/openscope/openscope/issues/555)
 
 
 
