@@ -246,6 +246,12 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             wip: true
         },
         {
+            icao: 'ktus',
+            level: 'easy',
+            name: 'Tucson International Airport',
+            wip: false
+        },
+        {
             icao: 'lkpr',
             level: 'easy',
             name: 'Vaclav Havel International Airport',
