@@ -1,7 +1,7 @@
 ## 5.3.0 (August 1, 2017)
 ---
 ### Features
-
+- Adds Detroit Metro Airport (KDTW) - Includes video map, terrain and realistic traffic [#559](https://github.com/openscope/openscope/issues/559)
 
 
 
