@@ -1,3 +1,19 @@
+## 5.3.0 (August 1, 2017)
+---
+### Features
+- Add Providence Airport (KPVD) with data from cycle 1707 [#107](https://github.com/openscope/openscope/107)
+
+
+
+
+
+### Bugfixes
+-Removes inactive danger areas at EIDW [#562](https://github.com/openscope/openscope/issues/562)
+
+
+
+
+
 ## 5.2.1 (July 1, 2017)
 ---
 ### Hotfix
