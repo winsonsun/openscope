@@ -1,3 +1,19 @@
+## 5.3.0 (August 1, 2017)
+---
+### Features
+- Add Ottawa Macdonald International Airport [#108](https://github.com/openscope/openscope/issues/104)
+
+
+
+
+
+### Bugfixes
+-Removes inactive danger areas at EIDW [#562](https://github.com/openscope/openscope/issues/562)
+
+
+
+
+
 ## 5.2.1 (July 1, 2017)
 ---
 ### Hotfix
