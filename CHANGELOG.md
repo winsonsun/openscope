@@ -7,7 +7,7 @@
 - Add new openScope emblem vector graphic [#572](https://github.com/openscope/openscope/issues/572)
 - Adds additional meta tags to index.html head [#484](https://github.com/openscope/openscope/issues/572)
 - Adds a link to the full command reference at the end of the tutorial [#581](https://github.com/openscope/openscope/issues/581)
-- The mouse button to drag the radar screen is configurable, and defaults to 'right click' [#564](https://github.com/openscope/openscope/issues/564)
+- The mouse button to drag the radar screen is now right click [#564](https://github.com/openscope/openscope/issues/564)
 
 
 
