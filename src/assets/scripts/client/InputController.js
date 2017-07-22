@@ -137,6 +137,8 @@ export default class InputController {
         this.$canvases = this.$element.find(SELECTORS.DOM_SELECTORS.CANVASES);
         this.$sidebar = this.$element.find(SELECTORS.DOM_SELECTORS.SIDEBAR);
 
+        this._disableRightClickMenu();
+
         return this;
     }
 
@@ -290,7 +292,6 @@ export default class InputController {
         if (event.which === MOUSE_EVENT_CODE.MIDDLE_PESS) {
             UiController.ui_zoom_reset();
         } else if (event.which === MOUSE_EVENT_CODE.RIGHT_PRESS) {
-		    event.preventDefault();
             // Record mouse down position for panning
             this.input.mouseDown = [
                 event.pageX - prop.canvas.panX,
@@ -355,7 +356,7 @@ export default class InputController {
                 UiController.ui_airport_close();
             }
         }
-        
+
         if (!prop.tutorial.open) {
             return;
         }
@@ -710,6 +711,16 @@ export default class InputController {
 
         this.$commandInput.val(command.toUpperCase());
         this.onCommandInputChangeHandler();
+    }
+
+    /**
+     * Disable default behavior of right-click menu appearing on right click
+     *
+     * @for InputController
+     * @method _disableRightClickMenu
+     */
+    _disableRightClickMenu() {
+        document.querySelector('body').addEventListener('contextmenu', (e) => e.preventDefault());
     }
 
     /**
