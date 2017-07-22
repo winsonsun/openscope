@@ -236,20 +236,6 @@ export default class InputController {
         this.input.mouseDown = [0, 0];
         this.input.isMouseDown = false;
     }
-    
-    /**
-     * This checks the Mouse click drag option, and returns the appropriate event.
-     * Used in onMouseDownHandler.
-     *
-     * @returns MOUSE_EVENT_CODE
-     * @default MOUSE_EVENT_CODE.LEFT_PRESS
-     */
-    scopeDragButton() {
-        if (GameController.getGameOption(GAME_OPTION_NAMES.MOUSE_CLICK_DRAG) === 'right') {
-            return MOUSE_EVENT_CODE.RIGHT_PRESS;
-        }
-        return MOUSE_EVENT_CODE.LEFT_PRESS;
-    }
 
     /**
      * @for InputController
@@ -303,7 +289,8 @@ export default class InputController {
         // TODO: this should use early returns instead of the else if
         if (event.which === MOUSE_EVENT_CODE.MIDDLE_PESS) {
             UiController.ui_zoom_reset();
-        } else if (event.which === scopeDragButton()) {
+        } else if (event.which === MOUSE_EVENT_CODE.RIGHT_PRESS) {
+	    event.preventDefault();
             // Record mouse down position for panning
             this.input.mouseDown = [
                 event.pageX - prop.canvas.panX,
