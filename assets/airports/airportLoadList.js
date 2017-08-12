@@ -173,6 +173,12 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
             name: 'Washington-Dulles International Airport',
             wip: true
         },
+        {
+            icao: 'kjax',
+            level: 'easy',
+            name: 'Jacksonville International Airport',
+            wip: false
+        },
         // {
         //     icao: 'kjfk',
         //     level: 'hard',
