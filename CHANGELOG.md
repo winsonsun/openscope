@@ -1,7 +1,7 @@
 ## 5.4.0 (September 1, 2017)
 ---
 ### New Features
-
+- Adds Jacksonville Intl. (KJAX) [#624](https://github.com/openscope/openscope/issues/624)
 
 
 ### Bugfixes
