@@ -16,6 +16,7 @@
 - Extends departing spawnPatterns outside the airspace at EIDW to prevent point deduction [#566](https://github.com/openscope/openscope/issues/566)
 - Extends departing spawnPatterns outside the airspace at MDSD to prevent point deduction [#615](https://github.com/openscope/openscope/issues/615)
 - Implement scope themes, and changed default theme to blue-based [#15](https://github.com/openscope/openscope/issues/15)
+- Renamed `index.md` to `commands.md` and added system commands and a TOC [#365](https://github.com/openscope/openscope/issues/365)
 
 
 
