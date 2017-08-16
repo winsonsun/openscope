@@ -1,3 +1,24 @@
+## 5.4.0 (September 1, 2017)
+---
+### New Features
+- New Airport: KABQ (Albuquerque International Sunport, NM) [#327](https://github.com/openscope/openscope/issues/327)
+- Add Hartsfield–Jackson Atlanta Intl. (KATL) [#541](https://github.com/openscope/openscope/issues/541)
+
+
+
+### Bugfixes
+
+
+
+### Enhancements & Refactors
+- Removed index.html as it is generated from templates when run [#619](https://github.com/openscope/openscope/issues/619)
+- Implements new loading screen with new color scheme and animated radar sweep [#619](https://github.com/openscope/openscope/issues/619)
+- Extends departing spawnPatterns outside the airspace at EIDW to prevent point deduction [#566](https://github.com/openscope/openscope/issues/566)
+- Extends departing spawnPatterns outside the airspace at MDSD to prevent point deduction [#615](https://github.com/openscope/openscope/issues/615)
+- Implement scope themes, and changed default theme to blue-based [#15](https://github.com/openscope/openscope/issues/15)
+
+
+
 ## 5.3.0 (August 1, 2017)
 ---
 ### Features
@@ -10,11 +31,6 @@
 - The distance separator behind aircraft on ILS is now toggleable [#536](https://github.com/openscope/openscope/issues/536)
 - Removes the blue line "departure window" [#411](https://github.com/openscope/openscope/issues/411)
 
-
-
-
-
-
 ### Bugfixes
 - Removes inactive danger areas at EIDW [#562](https://github.com/openscope/openscope/issues/562)
 - Make aircraft proceed direct new fix after full reroute [#570](https://github.com/openscope/openscope/issues/570)
@@ -22,18 +38,12 @@
 - Remove +/-/= zoom hotkey, conflicts with speed [#510](https://github.com/openscope/openscope/issues/510)
 - Correct EGKK's departure fix [#577](https://github.com/openscope/openscope/issues/577)
 
-
-
-
-
-
 ### Refactors
 - Fix spelling error of `CanvasController` as `ConvasController` [#586](https://github.com/openscope/openscope/issues/586)
 - Remove deprecated fixRadialDist() [#290](https://github.com/openscope/openscope/issues/290)
 - Renamed `MIDDLE_PESS` as `MIDDLE_PRESS` in `InputController` [#593](https://github.com/openscope/openscope/issues/593)
-
-
-
+- Fix instances of misspelling of @param in code docblocks [#602](https://github.com/openscope/openscope/issues/602)
+- Deprecates `gulp server` task and adds `nodemon` package [#599](https://github.com/openscope/openscope/issues/599)
 
 
 ## 5.2.1 (July 1, 2017)
