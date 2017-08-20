@@ -201,8 +201,8 @@ export default class TutorialView {
                 if (prop.aircraft.list.length <= 0) {
                     return t;
                 }
-
-                return t.replace('{CALLSIGN}', prop.aircraft.list[0].callsign);
+                const reverseList = [...prop.aircraft.list].reverse();
+                return t.replace('{CALLSIGN}', reverseList[0].callsign);
             },
             side: 'left',
             position: tutorial_position
