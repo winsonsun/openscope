@@ -106,6 +106,30 @@ const ZERO_ARG_COMMANDS = {
     takeoff: {
         validate: zeroArgumentsValidator,
         parse: noop
+    },
+    sayAltitude: {
+        validate: zeroArgumentsValidator,
+        parse: noop
+    },
+    sayAssignedAltitude: {
+        validate: zeroArgumentsValidator,
+        parse: noop
+    },
+    sayHeading: {
+        validate: zeroArgumentsValidator,
+        parse: noop
+    },
+    sayAssignedHeading: {
+        validate: zeroArgumentsValidator,
+        parse: noop
+    },
+    saySpeed: {
+        validate: zeroArgumentsValidator,
+        parse: noop
+    },
+    sayAssignedSpeed: {
+        validate: zeroArgumentsValidator,
+        parse: noop
     }
 };
 
