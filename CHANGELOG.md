@@ -3,6 +3,7 @@
 ### New Features
 - New Airport: KABQ (Albuquerque International Sunport, NM) [#327](https://github.com/openscope/openscope/issues/327)
 - Add Hartsfield–Jackson Atlanta Intl. (KATL) [#541](https://github.com/openscope/openscope/issues/541)
+- Add Louisville Intl. (KSDF) [#557](https://github.com/openscope/openscope/issues/557)
 
 
 
@@ -15,7 +16,10 @@
 - Implements new loading screen with new color scheme and animated radar sweep [#619](https://github.com/openscope/openscope/issues/619)
 - Extends departing spawnPatterns outside the airspace at EIDW to prevent point deduction [#566](https://github.com/openscope/openscope/issues/566)
 - Extends departing spawnPatterns outside the airspace at MDSD to prevent point deduction [#615](https://github.com/openscope/openscope/issues/615)
+- Extends departing spawnPatterns outside the airspace at KBOS to prevent point deduction [#635](https://github.com/openscope/openscope/issues/635)
 - Implement scope themes, and changed default theme to blue-based [#15](https://github.com/openscope/openscope/issues/15)
+- Deactivate unused WIP airports from the load list, and add premium flag [#431](https://github.com/openscope/openscope/issues/431)
+- Document airport terrain generation process [#7](https://github.com/openscope/openscope/issues/7)
 - Renamed `index.md` to `commands.md` and added system commands and a TOC [#365](https://github.com/openscope/openscope/issues/365)
 
 
