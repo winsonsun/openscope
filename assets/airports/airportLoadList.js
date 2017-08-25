@@ -169,7 +169,7 @@ window.AIRPORT_LOAD_LIST = (function() { // eslint-disable-line wrap-iife
         },
         {
             icao: 'kdtw',
-            level: 'hard',
+            level: 'medium',
             name: 'Detroit Metropolitan Wayne County Airport',
             wip: false
         },
